@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 20px;
+    }
+
+    form {
+        margin-bottom: 20px;
+    }
+
+    #imageContainer {
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+    }
+</style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Generator</title>
+</head>
+<body>
+
+<form id="imageForm">
+    <label for="textInput">Enter Text:</label>
+    <input type="text" id="textInput" required>
+    <button type="button" onclick="generateImage()">Generate Image</button>
+</form>
+<div id="imageContainer">
+    <!-- Generated image will be displayed here -->
+</div>
+
+</body>
+</html>
+<script>
+    function generateImage() {
+        // This is a placeholder function; we'll add the image generation logic here later
+        alert("Image will be generated here!");
+    }
+</script>
